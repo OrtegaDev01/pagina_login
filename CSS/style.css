@@ -3,17 +3,29 @@
     box-sizing: border-box;
 }
 
-body{
+html {
+    height: 100%;
+}
+
+body {
     background-image: url(plano-fundo.jpg);
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
     display: grid;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
-#login-box{
+#login-box {
+    padding: 10px;
     width: 300px;
     background-color: aliceblue;
     height: 250px;
+    border-radius: 10px;
+}
+
+#login-box h1 {
+    text-align: center;
+
 }
